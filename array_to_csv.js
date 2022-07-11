@@ -3,7 +3,7 @@ const fs = require('fs');
 const parseToCSV = (emails) => {
     let result = 'email' + '\n';
 
-    emails.forEach((email, index) => {
+    emails.forEach((email) => {
         result += email + '\n';
     });
 

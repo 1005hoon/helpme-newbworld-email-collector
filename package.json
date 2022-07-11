@@ -1,18 +1,19 @@
 {
-    "name": "helpme-newbworld-email-collector",
-    "version": "1.0.0",
-    "main": "index.js",
-    "repository": "https://github.com/1005hoon/helpme-newbworld-email-collector.git",
-    "author": "hoon <hoonnotes@naver.com>",
-    "license": "MIT",
-    "scripts": {
-        "dev": "nodemon app.js"
-    },
-    "dependencies": {
-        "dotenv": "^16.0.0",
-        "puppeteer": "^13.5.1"
-    },
-    "devDependencies": {
-        "nodemon": "^2.0.15"
-    }
+	"name": "helpme-newbworld-email-collector",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/1005hoon/helpme-newbworld-email-collector.git",
+	"author": "hoon <hoonnotes@naver.com>",
+	"license": "MIT",
+	"scripts": {
+		"start": "node app.js",
+		"dev": "nodemon app.js"
+	},
+	"dependencies": {
+		"dotenv": "^16.0.0",
+		"puppeteer": "^13.5.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
 }
